@@ -24,6 +24,7 @@ export default {
   height: 40px;
   position: relative;
   animation: sk-chase 2.5s infinite linear both;
+  margin: 0px auto;
 }
 
 .sk-chase-dot {
@@ -40,7 +41,7 @@ export default {
   display: block;
   width: 25%;
   height: 25%;
-  background-color: #000;
+  background-color: #45a049;
   border-radius: 100%;
   animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
 }

@@ -1,29 +1,40 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <SendMail />
-  <ListaUsuarios />
+  <NavBar />
+  <img alt="Vue logo" src="./assets/logo.png" class="imagen-vue">
+  
+  <router-view />
 </template>
 
 <script>
-import SendMail from "@/components/SendMail"
-import ListaUsuarios from "@/components/ListaUsuarios"
+import {defineAsyncComponent} from 'vue'
+
 
 export default {
   name: 'App',
   components: {
-    ListaUsuarios,
-    SendMail
+    NavBar: defineAsyncComponent( ()=>  import(/*webpackChunkName: "Navbar" */ '@/modules/shared/components/NavBar'))
   },
 }
 </script>
 
 <style>
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  
+}
+
+.imagen-vue{
+  margin: 30px 0px;
+
 }
 </style>

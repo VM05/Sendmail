@@ -2,48 +2,27 @@
   "users": [
     {
       "name": "victor",
-      "email": "montiel@gmail.com",
+      "email": "victorhmg05@gmail.com",
+      "rut": "26.210.780-9",
       "id": 1
     },
     {
       "name": "victor",
-      "email": "montiel2@gmail.com",
+      "email": "montiel@gmail.com",
+      "rut": "26.210.780-9",
       "id": 2
     },
     {
-      "name": "gfdfgdfg",
-      "email": "montiel3@gmail.com",
+      "name": "victor",
+      "email": "montiel2@gmail.com",
+      "rut": "26.210.780-9",
       "id": 3
     },
     {
-      "name": "vvv",
-      "email": "v@gmail.com",
+      "name": "vv",
+      "email": "vv@gmail.com",
+      "rut": "26.210.780-9",
       "id": 4
-    },
-    {
-      "name": "ggg",
-      "email": "g@gmail.com",
-      "id": 5
-    },
-    {
-      "name": "victor",
-      "email": "evelyn.brownc@gmail.com",
-      "id": 6
-    },
-    {
-      "name": "victor",
-      "email": "v@gmail.coom",
-      "id": 7
-    },
-    {
-      "name": "vvv",
-      "email": "vvvvv@gmail.com",
-      "id": 8
-    },
-    {
-      "name": "",
-      "email": "",
-      "id": 9
     }
   ]
 }
