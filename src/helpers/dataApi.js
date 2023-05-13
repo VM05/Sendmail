@@ -1,12 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
+const dataApi = axios.create({
+  baseURL: 'https://register-users-cae06-default-rtdb.firebaseio.com',
+});
 
-
- const data = axios.create({
-    baseURL:'http://localhost:8080/'
-
-})
-
-
-
-export default data
+export default dataApi;
